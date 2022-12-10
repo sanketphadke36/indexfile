@@ -8,7 +8,7 @@ pipeline {
 
 stages {
 
-        stage ("install httpd") {
+        stage ("install-httpd") {
 		steps {
 		sh "cp index.html /var/www/html"
 			sh "chmod -R 777 /var/www/html/index.html"
